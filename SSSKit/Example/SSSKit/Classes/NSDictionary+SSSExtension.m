@@ -62,11 +62,11 @@
     
     if ([str isNumeric])
     {
-        result = -1;
+        result = [str doubleValue];
     }
     else
     {
-        result = [str doubleValue];
+        result = -1;
     }
     
     return result;
