@@ -1,0 +1,14 @@
+PODS:
+  - SSSKit (0.1.0)
+
+DEPENDENCIES:
+  - SSSKit (from `../`)
+
+EXTERNAL SOURCES:
+  SSSKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SSSKit: 9179d87405052e86b6bb97a8e992e8a082a521bc
+
+COCOAPODS: 0.35.0
