@@ -26,6 +26,7 @@
 		7CBAB21DD54AA6C75C5E1687 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CCAE88592FBF21E90BAAB2 /* libPods-Tests.a */; };
 		EB9CD0A31A84B22E00B0D790 /* NSDictionary+SSSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9CD0A21A84B22E00B0D790 /* NSDictionary+SSSExtension.m */; };
 		EB9CD0A71A84BCCA00B0D790 /* NSString+SSSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9CD0A61A84BCCA00B0D790 /* NSString+SSSExtension.m */; };
+		EB9CD0AB1A84C70400B0D790 /* NSArray+SSSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9CD0AA1A84C70400B0D790 /* NSArray+SSSExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		EB9CD0A21A84B22E00B0D790 /* NSDictionary+SSSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SSSExtension.m"; path = "Classes/NSDictionary+SSSExtension.m"; sourceTree = "<group>"; };
 		EB9CD0A51A84BCCA00B0D790 /* NSString+SSSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SSSExtension.h"; path = "Classes/NSString+SSSExtension.h"; sourceTree = "<group>"; };
 		EB9CD0A61A84BCCA00B0D790 /* NSString+SSSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SSSExtension.m"; path = "Classes/NSString+SSSExtension.m"; sourceTree = "<group>"; };
+		EB9CD0A91A84C70400B0D790 /* NSArray+SSSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+SSSExtension.h"; path = "Classes/NSArray+SSSExtension.h"; sourceTree = "<group>"; };
+		EB9CD0AA1A84C70400B0D790 /* NSArray+SSSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SSSExtension.m"; path = "Classes/NSArray+SSSExtension.m"; sourceTree = "<group>"; };
 		ECDF7660E958EADB92A33FD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FB1214597EA366BB14B78B23 /* Pods-SSSKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSSKit/Pods-SSSKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FE01FDE966F6F5132E3D28B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -205,6 +208,7 @@
 		EB9CD09F1A84AD5400B0D790 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EB9CD0A81A84C6DA00B0D790 /* NSArray+SSSExtension */,
 				EB9CD0A41A84BCA700B0D790 /* NSString+SSSExtension */,
 				EB9CD0A01A84AFFD00B0D790 /* NSDictionary+SSSExtension */,
 			);
@@ -227,6 +231,15 @@
 				EB9CD0A61A84BCCA00B0D790 /* NSString+SSSExtension.m */,
 			);
 			name = "NSString+SSSExtension";
+			sourceTree = "<group>";
+		};
+		EB9CD0A81A84C6DA00B0D790 /* NSArray+SSSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EB9CD0A91A84C70400B0D790 /* NSArray+SSSExtension.h */,
+				EB9CD0AA1A84C70400B0D790 /* NSArray+SSSExtension.m */,
+			);
+			name = "NSArray+SSSExtension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9CD0AB1A84C70400B0D790 /* NSArray+SSSExtension.m in Sources */,
 				6003F59E195388D20070C39A /* SSSKitAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SSSKitViewController.m in Sources */,
 				EB9CD0A31A84B22E00B0D790 /* NSDictionary+SSSExtension.m in Sources */,
